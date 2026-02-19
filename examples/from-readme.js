@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { addonBuilder, serveHTTP } = require('../')
+const { addonBuilder, serveHTTP } = require('stremio-addon-sdk')
 
 const builder = new addonBuilder({
 	id: 'org.myexampleaddon',
